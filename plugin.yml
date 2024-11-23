@@ -1,0 +1,13 @@
+name: MagicWand
+main: MagicWand\MagicWand
+version: 1.0.0
+api: 5.0.0
+permissions:
+  magicwand.use:
+    description: "Allows use of the magic wand command"
+    default: true
+commands:
+  magicwand:
+    description: "Use the magic wand by right-clicking with a stick"
+    usage: "/magicwand"
+    permission: magicwand.use
